@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Righteous&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2F2F2F;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  box-sizing: border-box;
+}
+.cardbtm{
+  border-bottom: 10px solid orangered;
+}
+.title{
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Righteous', cursive;
+text-align: center;
+font-size: 60px;
+color: #F26B27;
 }
