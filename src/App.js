@@ -12,11 +12,9 @@ function App() {
       key: alanKey,
       onCommand: ({ command, articles }) => {
         if (command === 'newnews') {
-          // alert('this code was executed')
-          console.log("data11",articles)
+
           setarticels(articles)
         }else if(command === 'highlight'){
-          console.log('cvv1')
           setactiveart((pre)=>pre+1)
         }
       }

@@ -3,8 +3,7 @@ import {Card,CardActions,CardActionArea,CardClasses,CardMedia,Button,Typography,
 import { useEffect ,createRef} from 'react'
 import { useState } from 'react'
 function Newscard({data:{description,publishedAt,source,title,url,urlToImage},i,activeart}) {
-  console.log('cv',i)
-  console.log('cvv',activeart)
+  
   const [elRefs, setelRefs] = useState([])
   const rollRef = ((ref)=>window.scroll(0,ref.current.offsetTop - 50))
   useEffect(()=>{

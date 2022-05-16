@@ -3,8 +3,7 @@ import Newscard from '../Newscard/Newscard'
 import { Grid, Grow, Typography } from '@mui/material'
 import useStyles from './styles'
 function Newscards({ data,activeart }) {
-    console.log('data2', data)
-    // const classes = useStyles()
+    
     const infoCards = [
         { color: '#00838f', title: 'Latest News', text: 'What are the latest news' },
         { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
